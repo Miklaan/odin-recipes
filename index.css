@@ -1,0 +1,55 @@
+body {
+    margin: 5em 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.odin_norse {
+    width: 480px;
+    height: 265px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.odin_norse_img {
+    margin: -46px 0 -45px 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    display: inline-block;
+}
+
+.heading h1:hover {
+    color: firebrick;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.5em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+li a:hover {
+    color: firebrick;
+}
+
+li + li {
+    border-left: 2px solid black;
+}
