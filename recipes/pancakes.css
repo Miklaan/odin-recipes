@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    margin: 5em 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+figure {
+    display: grid;
+}
+
+.pancakes img {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+}
+
+.pancakes figcaption {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.pancakes ul, ol {
+    margin: 0 auto;
+    width: 350px;
+}

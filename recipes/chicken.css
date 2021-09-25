@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    margin: 5em 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+figure {
+    display: grid;
+}
+
+.chicken-wings img {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+}
+
+.chicken-wings figcaption {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.chicken-wings ul, ol {
+    margin: 0 auto;
+    width: 350px;
+}
